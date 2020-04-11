@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0; 
+}
+
+h1 {
+    color: Black;
+    text-align: center;
+}
+
+#container {
+    width: 1000px;
+    height: 250px;
+    /* border: 5px green solid; */
+    margin: 0 auto;
+}
+
+.square {
+    width : 48px;
+    height : 48px;
+    background: gray;
+    border: 1px solid black;
+    margin : 1px;
+    /* padding-bottom: 50px; */
+    float : left;
+    text-align: center;
+    /* position: relative; */
+    /* vertical-align: middle; */
+    line-height: 48px;
+}
+
+ .square p {
+    margin : 0;
+    position: absolute;
+    top:15px;
+    left:15px;
+}
+
+#info {
+    text-align: center;
+    color: #ffffff;
+}
+
+#squaresBlock {
+    width: 504px;
+    margin: 0 auto;
+    /* border: 2px red solid; */
+} 
+
+#colorSelectionBlock {
+    width: 50px;
+    margin: 0 auto;
+    float : right;
+    margin: auto;
+    /* border: 2px red solid; */
+} 
